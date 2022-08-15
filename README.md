@@ -1,5 +1,7 @@
-# webpack-typescript-react-starter
+# webpack-typescript-react-redux-starter
 This project is a starter for React-Typescript Projects with Webpack 5 in a minimal settings for production and development.
+
+This project is started
 
 * **[React](https://facebook.github.io/react/)** (18)
 * **[Webpack](https://webpack.js.org/)** (5)
@@ -10,3 +12,5 @@ This project is a starter for React-Typescript Projects with Webpack 5 in a mini
 * Development and Production build
 * Testing with [Jest](https://jestjs.io/) and [react-testing-library](https://testing-library.com/docs/)
 * [Eslint](https://eslint.org/) and [prettier](https://prettier.io/) config
+
+* Routing is suppoted with [react-router-dom 6](https://reactrouter.com/docs/en/v6)
