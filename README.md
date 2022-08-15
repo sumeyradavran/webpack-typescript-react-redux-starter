@@ -1,7 +1,7 @@
 # webpack-typescript-react-redux-starter
-This project is a starter for React-Typescript Projects with Webpack 5 in a minimal settings for production and development.
+This project is a starter for React-Typescript Projects with Webpack 5 in a minimal settings for production and development and routing.
 
-This project is started
+This project is started from https://github.com/sumeyradavran/webpack-typescript-react-starter
 
 * **[React](https://facebook.github.io/react/)** (18)
 * **[Webpack](https://webpack.js.org/)** (5)
