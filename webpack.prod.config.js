@@ -56,10 +56,7 @@ module.exports = () => {
       }),
       new MiniCssExtractPlugin(),
       new CopyPlugin({
-        patterns: [
-          { from: './public/assets', to: 'assets' },
-          { from: './public/locales', to: 'locales' },
-        ],
+        patterns: [{ from: './public/locales', to: 'locales' }],
       }),
     ],
   })
