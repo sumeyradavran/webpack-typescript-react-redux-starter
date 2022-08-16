@@ -11,6 +11,7 @@ module.exports = () => {
     output: {
       filename: '[name].[contenthash:8].js',
       chunkFilename: '[name].[contenthash:8].chunk.js',
+      clean: true,
     },
     optimization: {
       splitChunks: {
