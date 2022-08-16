@@ -1,11 +1,13 @@
+import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 
 const Home: React.FC = () => {
+  const { t } = useTranslation()
   return (
     <>
-      <div>Home</div>
+      <div>{t('home')}</div>
       <div>
-        <Link to='/page'>page</Link>
+        <Link to='/page'>{t('page')}</Link>
       </div>
     </>
   )

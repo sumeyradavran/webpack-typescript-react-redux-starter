@@ -3,6 +3,8 @@ const commonConfig = require('./webpack.base.config')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
+const CopyPlugin = require('copy-webpack-plugin')
+
 module.exports = () => {
   return merge(commonConfig, {
     mode: 'production',
@@ -52,6 +54,12 @@ module.exports = () => {
         inject: true,
       }),
       new MiniCssExtractPlugin(),
+      new CopyPlugin({
+        patterns: [
+          { from: './public/assets', to: 'assets' },
+          { from: './public/locales', to: 'locales' },
+        ],
+      }),
     ],
   })
 }

@@ -4,6 +4,7 @@ This project is a starter for React-Typescript Projects with Webpack 5 in a mini
 This project is started from https://github.com/sumeyradavran/webpack-typescript-react-starter
 
 * **[React](https://facebook.github.io/react/)** (18)
+* **[Redux-Toolkit](https://redux-toolkit.js.org/introduction/getting-started)**
 * **[Webpack](https://webpack.js.org/)** (5)
 * **[Typescript](https://www.typescriptlang.org/)** (4)
 * **[Hot Module Replacement (HMR)](https://webpack.js.org/concepts/hot-module-replacement/)** + [Hot Reload](https://github.com/pmmmwh/react-refresh-webpack-plugin)
@@ -12,5 +13,6 @@ This project is started from https://github.com/sumeyradavran/webpack-typescript
 * Development and Production build
 * Testing with [Jest](https://jestjs.io/) and [react-testing-library](https://testing-library.com/docs/)
 * [Eslint](https://eslint.org/) and [prettier](https://prettier.io/) config
-
-* Routing is suppoted with [react-router-dom 6](https://reactrouter.com/docs/en/v6)
+* Routing is supported with [react-router-dom 6](https://reactrouter.com/docs/en/v6)
+* Localization through [react-i18next](https://react.i18next.com/)
+* Translation Parser [i18next-parser](https://github.com/i18next/i18next-parser)

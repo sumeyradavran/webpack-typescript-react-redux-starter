@@ -7,7 +7,8 @@
     "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js",
     "test": "jest",
     "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx .",
-    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "extract": "i18next --config i18next-parser.config.js"
   },
   "author": "Sümeyra Davran",
   "license": "ISC",
@@ -16,8 +17,13 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.4",
+    "i18next": "^21.9.0",
+    "i18next-browser-languagedetector": "^6.1.5",
+    "i18next-http-backend": "^1.4.1",
+    "i18next-parser": "^6.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^11.18.4",
     "react-redux": "^8.0.2",
     "react-router-dom": "^6.3.0"
   },
@@ -39,6 +45,7 @@
     "babel-eslint": "^10.1.0",
     "babel-jest": "^28.1.3",
     "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "dotenv-webpack": "^8.0.0",
     "eslint": "^8.22.0",
