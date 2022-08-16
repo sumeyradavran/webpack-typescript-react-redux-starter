@@ -12,8 +12,7 @@ This project is started from https://github.com/sumeyradavran/webpack-typescript
 * **[Typescript](https://www.typescriptlang.org/)** (4)
 * **[Hot Module Replacement (HMR)](https://webpack.js.org/concepts/hot-module-replacement/)** + [Hot Reload](https://github.com/pmmmwh/react-refresh-webpack-plugin)
 * Image support ([Asset Modules](https://webpack.js.org/guides/asset-modules))
-* Css and Sass support
-* Development and Production build
+* css-loader and sass-loader
 * Testing with [Jest](https://jestjs.io/) and [react-testing-library](https://testing-library.com/docs/)
 * [Eslint](https://eslint.org/) and [prettier](https://prettier.io/) config
 * Routing is supported with [react-router-dom 6](https://reactrouter.com/docs/en/v6)
